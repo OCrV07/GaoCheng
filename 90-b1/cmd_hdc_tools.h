@@ -1,16 +1,17 @@
 /* -----------------------------------------
 
-     本文件不需要提交、不允许改动
+	 本文件不需要提交、不允许改动
 
    ----------------------------------------- */
 #pragma once
 
 #include <Windows.h>
 
-#define INVALID_RGB		0x7FFFFFFF
+#define INVALID_RGB 0x7FFFFFFF
 
 /* 初始化及结束函数（具体参数含义参见cpp） */
-void hdc_init(const int bgcolor = RGB(255,255,255), const int fgcolor = RGB(0,0,0), const int width = 8 * 120, const int high = 16 * 30);
+void hdc_init(const int bgcolor = RGB(255, 255, 255), const int fgcolor = RGB(0, 0, 0), const int width = 8 * 120,
+			  const int high = 16 * 30);
 void hdc_release(void);
 
 /* 设置画笔颜色（具体参数含义参见cpp） */

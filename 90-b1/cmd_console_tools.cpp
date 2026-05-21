@@ -4,15 +4,15 @@
 
    ----------------------------------------- */
 
-#include <iostream>
-#include <iomanip>
-#include <cstdio>
 #include <conio.h>
+#include <cstdio>
+#include <iomanip>
+#include <iostream>
 #include <windows.h>
 using namespace std;
 
 /* 静态全局变量（同一项目中的其它cpp不能访问本变量） */
-static HANDLE hout = GetStdHandle(STD_OUTPUT_HANDLE); //取标准输出设备对应的句柄
+static HANDLE hout = GetStdHandle(STD_OUTPUT_HANDLE); // 取标准输出设备对应的句柄
 
 /***************************************************************************
   函数名称：cct_cls
@@ -23,7 +23,7 @@ static HANDLE hout = GetStdHandle(STD_OUTPUT_HANDLE); //取标准输出设备对应的句柄
 ***************************************************************************/
 void cct_cls()
 {
-	COORD coord = { 0, 0 };
+	COORD coord = {0, 0};
 	CONSOLE_SCREEN_BUFFER_INFO binfo; /* to get buffer info */
 	DWORD num;
 

@@ -4,6 +4,7 @@
     <Platform Name="x86" />
   </Configurations>
   <Project Path="90-b1-demo-汉诺塔综合题草稿/90-b1-demo-汉诺塔综合题草稿.vcxproj" Id="046c815a-4d2a-44b1-80a3-da5bd7243812" />
+  <Project Path="90-b1/90-b1.vcxproj" Id="63597602-c1d8-4f04-82d9-93640427be4f" />
   <Project Path="E:/13B/c_cpp_program_learning/Homework/3-b1-1-C方式求圆相关/3-b1-1-C方式求圆相关.vcxproj" Id="6f8d279c-cb4a-474d-ba1c-9f5f7b23a087" />
   <Project Path="E:/13B/c_cpp_program_learning/Homework/3-b1-2-C++方式求圆相关/3-b1-2-C++方式求圆相关.vcxproj" Id="2601d89c-318f-49df-8c18-91b93530daae" />
   <Project Path="E:/13B/c_cpp_program_learning/Homework/3-b10-1-C++方式1-9相加得1953/3-b10-1-C++方式1-9相加得1953.vcxproj" Id="0302ac2c-7024-49f2-a2c9-367f0a08e036" />
@@ -62,7 +63,6 @@
   <Project Path="E:/13B/c_cpp_program_learning/Homework/5-b7-汉诺塔-每步详细(横向+纵向)/5-b7-汉诺塔-每步详细(横向+纵向).vcxproj" Id="057bbbb0-c9db-4a09-ac97-d38f7c64f4da" />
   <Project Path="E:/13B/c_cpp_program_learning/Homework/5-b8-高精度幂计算/5-b8-高精度幂计算.vcxproj" Id="00cc75a9-f2d7-4d39-9210-d7c904b81381" />
   <Project Path="E:/13B/c_cpp_program_learning/Homework/5-b9-数独判断/5-b9-数独判断.vcxproj" Id="79de5ea6-dbcd-4a76-a9f8-f0718f3db56d" />
-  <Project Path="E:/13B/c_cpp_program_learning/Homework/90-b1/90-b1.vcxproj" Id="15a9979b-6cba-4b1a-9465-7abb90268b24" />
   <Project Path="E:/13B/c_cpp_program_learning/Homework/calculate/calculate.vcxproj" Id="6028be65-8d21-4b88-abc0-78cac83f24de" />
   <Project Path="E:/13B/c_cpp_program_learning/Homework/demo/demo.vcxproj" Id="9a587fb7-ac06-4755-977a-9c6700d12ff2" />
   <Project Path="E:/13B/c_cpp_program_learning/Homework/demo_c/demo_c.vcxproj" Id="faecb7ea-523e-4ff7-967f-49934765b7d9" />

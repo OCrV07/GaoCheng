@@ -14,4 +14,23 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\作业\第11周作业\25262-900101-W1101. 综合题 - 第01题 - 汉诺塔综合演示\cmd_console_tools.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\作业\第11周作业\25262-900101-W1101. 综合题 - 第01题 - 汉诺塔综合演示\cmd_hdc_tools.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\作业\第11周作业\25262-900101-W1101. 综合题 - 第01题 - 汉诺塔综合演示\test-hdc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\作业\第11周作业\25262-900101-W1101. 综合题 - 第01题 - 汉诺塔综合演示\cmd_console_tools.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\作业\第11周作业\25262-900101-W1101. 综合题 - 第01题 - 汉诺塔综合演示\cmd_hdc_tools.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>

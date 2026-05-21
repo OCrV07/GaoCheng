@@ -83,7 +83,8 @@ void clear_line()
 void wait_input()
 {
 	if (s_delay_ms == -1) {
-		_getch();
+		while (_getch() != '\r')
+			;
 	}
 	else if (s_delay_ms > 0) {
 		Sleep(s_delay_ms);
@@ -181,8 +182,7 @@ void do_move(int n, char src, char dst)
 
 	// 刷新日志行（固定在第14行）
 	cct_gotoxy(0, 14);
-	cout << "第" << setw(4) << g_cnt << "步(" << n << "#: " << src << "-->"
-		 << dst << ")";
+	cout << "第" << setw(4) << g_cnt << "步(" << n << "#: " << src << "-->" << dst << ")";
 	if (s_show_internal) {
 		cout << "  ";
 		print_info();
@@ -282,8 +282,7 @@ int main()
 
 	// 输入移动速度
 	do {
-		cout << "请输入移动速度(0-5: 0-每步按键继续 1-延时最长 5-延时最短)"
-			 << endl;
+		cout << "请输入移动速度(0-5: 0-每步按键继续 1-延时最长 5-延时最短)" << endl;
 		cin >> speed;
 		if (cin.fail()) {
 			cin.clear();
@@ -332,8 +331,7 @@ int main()
 	s_show_internal = show;
 
 	// 信息确认
-	cout << "从 " << src << " 移动到 " << dst << "，层数 " << n
-		 << " 层，延时等级为 " << speed << "，"
+	cout << "从 " << src << " 移动到 " << dst << "，层数 " << n << " 层，延时等级为 " << speed << "，"
 		 << (s_show_internal ? "显示" : "不显示") << "内部数组值" << endl;
 	system("pause");
 	// 清除 system("pause") 带来的键盘缓冲区残留，避免干扰后续 _getch()
@@ -348,8 +346,7 @@ int main()
 	// 清屏幕并打印确认信息
 	cct_cls();
 	cct_gotoxy(0, 0);
-	cout << "从 " << src << " 移动到 " << dst << "，层数 " << n
-		 << " 层，延时等级为 " << speed << "，"
+	cout << "从 " << src << " 移动到 " << dst << "，层数 " << n << " 层，延时等级为 " << speed << "，"
 		 << (s_show_internal ? "显示" : "不显示") << "内部数组值" << endl;
 	draw_header();
 

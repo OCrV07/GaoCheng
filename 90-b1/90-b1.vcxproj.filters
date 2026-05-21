@@ -15,23 +15,20 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\作业\第11周作业\25262-900101-W1101. 综合题 - 第01题 - 汉诺塔综合演示\cmd_console_tools.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\作业\第11周作业\25262-900101-W1101. 综合题 - 第01题 - 汉诺塔综合演示\cmd_hdc_tools.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\作业\第11周作业\25262-900101-W1101. 综合题 - 第01题 - 汉诺塔综合演示\hanoi.h">
+    <ClInclude Include="hanoi.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="hanoi_const_value.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="cmd_hdc_tools.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cmd_console_tools.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="cmd_hdc_tools.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="hanoi_main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -42,6 +39,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="cmd_console_tools.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cmd_hdc_tools.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
