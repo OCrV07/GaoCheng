@@ -1,0 +1,3 @@
+﻿  4-b4.cpp
+E:\13B\c_cpp_program_learning\Homework\4-b4-键盘控制光标移动\4-b4.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\13B\c_cpp_program_learning\Homework\4-b4-键盘控制光标移动\4-b4.cpp(163,13): error C2001: 常量中有换行符

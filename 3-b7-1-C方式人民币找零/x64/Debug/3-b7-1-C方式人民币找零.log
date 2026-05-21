@@ -1,0 +1,3 @@
+﻿C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(551,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(3-b7-1-C方式人民币找零.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  3-b7.c
+  3-b7-1-C方式人民币找零.vcxproj -> E:\13B\c_cpp_program_learning\Homework\x64\Debug\3-b7-C方式人民币找零.exe

@@ -1,0 +1,74 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="90-b1-demo-汉诺塔综合题草稿/90-b1-demo-汉诺塔综合题草稿.vcxproj" Id="046c815a-4d2a-44b1-80a3-da5bd7243812" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/3-b1-1-C方式求圆相关/3-b1-1-C方式求圆相关.vcxproj" Id="6f8d279c-cb4a-474d-ba1c-9f5f7b23a087" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/3-b1-2-C++方式求圆相关/3-b1-2-C++方式求圆相关.vcxproj" Id="2601d89c-318f-49df-8c18-91b93530daae" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/3-b10-1-C++方式1-9相加得1953/3-b10-1-C++方式1-9相加得1953.vcxproj" Id="0302ac2c-7024-49f2-a2c9-367f0a08e036" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/3-b10-2-C方式1-9相加得1953/3-b10-2-C方式1-9相加得1953.vcxproj" Id="9119395c-a525-4ef4-8af5-d36d73476af9" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/3-b11-1-多重循环输出/3-b11-1-多重循环输出.vcxproj" Id="2dd2a4fc-ba5f-4bde-ab8d-25e1ef46f089" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/3-b11-2-多重循环输出/3-b11-2-多重循环输出.vcxproj" Id="c6f20d61-218f-47ba-bf8f-d5a7f454ab79" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/3-b11-3-多重循环输出/3-b11-3-多重循环输出.vcxproj" Id="3d8fc451-25dc-4dec-b734-4550f1fb1329" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/3-b11-4-多重循环输出/3-b11-4-多重循环输出.vcxproj" Id="c57d6e93-1a9d-4742-a11d-d5282b5a49e3" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/3-b11-5-多重循环输出/3-b11-5-多重循环输出.vcxproj" Id="49c76527-1cfd-4b16-9f26-58c4a889bab9" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/3-b12-1-C++解决cin输入int错误/3-b12-1-C++解决cin输入int错误.vcxproj" Id="3c913edd-a08f-4607-b8c5-7f42604fbd57" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/3-b12-2-C解决scanf输入int错误/3-b12-2-C解决scanf输入int错误.vcxproj" Id="62223f3a-36fd-4e65-af5a-1f912799e9ff" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/3-b13-1-C++打印月历/3-b13-1-C++打印月历.vcxproj" Id="c8b3871e-0b83-454c-9f80-13c5e6c954ac" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/3-b13-2-C打印月历/3-b13-2-C打印月历.vcxproj" Id="5425e930-dccf-4a0d-9b8c-95f2aa4f4d68" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/3-b2-1-C方式分解整数/3-b2-1-C方式分解整数.vcxproj" Id="4a232d5e-fbef-4e4c-84f2-6ad6f2fccc41" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/3-b2-2-C++方式分解整数/3-b2-2-C++方式分解整数.vcxproj" Id="6bb71743-3038-40cb-9c30-431455375f2f" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/3-b3-1-C方式分解浮点数/3-b3-1-C方式分解浮点数.vcxproj" Id="9fd0619d-6731-4379-9d07-c34e8ae983e2" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/3-b3-2-C++方式分解浮点数/3-b3-2-C++方式分解浮点数.vcxproj" Id="42993f25-65af-4e12-b9b4-83493acf5fd1" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/3-b4-1-C方式三角形两边一夹角求面积/3-b4-1-C方式三角形两边一夹角求面积.vcxproj" Id="9de2cb16-6c9e-4566-9590-90e26943ed8f" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/3-b4-2-C++方式三角形两边一夹角求面积/3-b4-2-C++方式三角形两边一夹角求面积.vcxproj" Id="7d4010bd-2869-43eb-8e3c-a8292a12d1ed" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/3-b5-2-C++方式计算天数/3-b5-2-C++方式计算天数.vcxproj" Id="e9e39141-7be8-4105-9e7a-cf44ab07c484" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/3-b6-1-C方式人民币转大写/3-b6-1-C方式人民币转大写.vcxproj" Id="7d3aba82-2dcf-4fb5-8ae5-6dee57ed1fcf" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/3-b6-2-C++方式人民币转大写/3-b6-2-C++方式人民币转大写.vcxproj" Id="e7138af9-d145-4ac7-b091-80f9577589f1" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/3-b7-C方式人民币找零/3-b7-C方式人民币找零.vcxproj" Id="6cb495de-5773-4a44-8e64-3e638f7078d8" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/3-b8-求exp/3-b8-求exp.vcxproj" Id="e6098355-6b09-46ec-a7ce-7d47705880e1" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/3-b9-九九乘法表/3-b9-九九乘法表.vcxproj" Id="86ac6029-b448-439d-bcc2-5532afb05deb" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/4-b1-人民币转大写/4-b1-人民币转大写.vcxproj" Id="d1a87195-5551-4d54-b740-3bcb18b41cc4" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/4-b10-判断是否为幂/4-b10-判断是否为幂.vcxproj" Id="b68f970d-823c-462c-aee9-7d09c2725811" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/4-b11-输出字母塔/4-b11-输出字母塔.vcxproj" Id="af9526a3-7088-4865-b2ee-5c74f9694409" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/4-b12-汉诺塔-基本移动/4-b12-汉诺塔-基本移动.vcxproj" Id="170d9282-f2da-4cac-ab0f-87906a18a521" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/4-b13-1-汉诺塔-步数记录-静态局部变量/4-b13-1-汉诺塔-步数记录-静态局部变量.vcxproj" Id="24177ff2-fe9d-44e4-a071-b410b675f304" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/4-b13-2-汉诺塔-步数记录-全局变量（C方式）/4-b13-2-汉诺塔-步数记录-全局变量（C方式）.vcxproj" Id="4279b5bf-01e4-4de6-b83f-0725f675cd7c" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/4-b18-max重载函数/4-b18-max重载函数.vcxproj" Id="4b60b968-808a-4b53-a872-2eec6b54ab4a" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/4-b19-min带缺省参数/4-b19-min带缺省参数.vcxproj" Id="2674382c-0853-4ded-ab9d-4e74bb4c4091" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/4-b2-蔡勒公式/4-b2-蔡勒公式.vcxproj" Id="5ce56607-31e9-4835-9317-706e0c3a4359" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/4-b3-1-C++打印月历/4-b3-1-C++打印月历.vcxproj" Id="66ad32ac-ce7f-4613-a386-c581b9525242" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/4-b3-2-C打印月历/4-b3-2-C打印月历.vcxproj" Id="fa4abf88-c701-492d-9446-234d1a3c65f4" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/4-b4-键盘控制光标移动/4-b4-键盘控制光标移动.vcxproj" Id="9a1e9ad2-22d9-4a65-a2cb-0bb39deb19b1" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/4-b5-猴子买桃/4-b5-猴子买桃.vcxproj" Id="b45b6ef3-d8a1-426b-b3d1-417a32fb9d8a" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/4-b6-gcd-lcm/4-b6-gcd-lcm.vcxproj" Id="25cd8c8b-bc97-43f3-afb0-f7cfd5812e4b" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/4-b7-整数分解-正序/4-b7-整数分解-正序.vcxproj" Id="5269e095-4cf5-4190-abf9-b273860dbeb5" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/4-b8-整数分解-逆序/4-b8-整数分解-逆序.vcxproj" Id="9ce9f273-74ad-4ae0-a7f6-c1932b8b31f2" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/4-b9-斐波那契数列/4-b9-斐波那契数列.vcxproj" Id="8626eb03-6b36-48dd-ba9f-fad10a99c928" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/5-b1-有序数组中插入数据后仍保持有序/5-b1-有序数组中插入数据后仍保持有序.vcxproj" Id="34a8f8d1-d1df-4e81-87aa-2cfcee95fa22" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/5-b10-打印年历/5-b10-打印年历.vcxproj" Id="734ca334-2d28-480c-a0c5-3c6929073885" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/5-b11-1-人民币大写(char数组,一句输出,C方式)/5-b11-1-人民币大写(char数组,一句输出,C方式).vcxproj" Id="b42e17a3-5ce9-4823-931f-539c6dba207b" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/5-b11-2-人民币大写(string类,一句输出)/5-b11-2-人民币大写(string类,一句输出).vcxproj" Id="c9042a29-70fc-4354-b57c-d2a8b98ff13b" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/5-b12-一组字符串处理函数/5-b12-一组字符串处理函数.vcxproj" Id="60a909f3-7404-4b71-8ea1-c3721e49267a" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/5-b13-扫雷内部数组生成/5-b13-扫雷内部数组生成.vcxproj" Id="3f2fe8aa-a9b5-4618-9d6c-8adbd41a879e" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/5-b14-扫雷内部数组验证(C方式)/5-b14-扫雷内部数组验证(C方式).vcxproj" Id="a8961f56-317d-4b2e-bdff-fb27309177dc" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/5-b2-100盏灯的亮灭/5-b2-100盏灯的亮灭.vcxproj" Id="b38296ab-4c06-4731-9609-27fc0d3e1560" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/5-b3-输入日期求天数/5-b3-输入日期求天数.vcxproj" Id="5b196c4f-d006-4bf8-8592-4bb2997f2a6b" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/5-b4-已知成绩统计各分数人数/5-b4-已知成绩统计各分数人数.vcxproj" Id="649a0a13-874d-4998-bcc5-ad265829612d" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/5-b5-含相同值的成绩排序/5-b5-含相同值的成绩排序.vcxproj" Id="287b3a98-594d-4dbf-a816-1c10836c82e5" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/5-b6-1-汉诺塔-每步详细(横向)-3个变量+3个一维/5-b6-1-汉诺塔-每步详细(横向)-3个变量+3个一维.vcxproj" Id="b1b02871-90ef-44f2-be37-068e0bf81e4b" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/5-b6-2-汉诺塔-每步详细(横向)-1个一维+1个二维/5-b6-2-汉诺塔-每步详细(横向)-1个一维+1个二维.vcxproj" Id="ca02fa33-e58a-47d1-b854-dbab46606f80" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/5-b7-汉诺塔-每步详细(横向+纵向)/5-b7-汉诺塔-每步详细(横向+纵向).vcxproj" Id="057bbbb0-c9db-4a09-ac97-d38f7c64f4da" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/5-b8-高精度幂计算/5-b8-高精度幂计算.vcxproj" Id="00cc75a9-f2d7-4d39-9210-d7c904b81381" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/5-b9-数独判断/5-b9-数独判断.vcxproj" Id="79de5ea6-dbcd-4a76-a9f8-f0718f3db56d" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/90-b1/90-b1.vcxproj" Id="15a9979b-6cba-4b1a-9465-7abb90268b24" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/calculate/calculate.vcxproj" Id="6028be65-8d21-4b88-abc0-78cac83f24de" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/demo/demo.vcxproj" Id="9a587fb7-ac06-4755-977a-9c6700d12ff2" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/demo_c/demo_c.vcxproj" Id="faecb7ea-523e-4ff7-967f-49934765b7d9" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/helloworld/helloworld.vcxproj" Id="ec2f826f-0e61-48e5-a410-331d4bf29ad2" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/input_outpout/input_outpout.vcxproj" Id="8c60e630-34f2-4762-8542-fdac7c2532c5" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/input_output_C/input_output_C.vcxproj" Id="b0c06b91-ebc1-45b1-b6b6-989c846fe8ab" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/myinfo/myinfo.vcxproj" Id="e169a383-e441-448f-835e-f8ea46878030" />
+  <Project Path="E:/13B/c_cpp_program_learning/Homework/test-hdc/test-hdc.vcxproj" Id="fff2a91e-fc3d-4967-abcf-4eb99e87f729" />
+</Solution>

@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./5-b7-demo.exe)",
+      "Bash(where python *)",
+      "Bash(pdftotext *)",
+      "Bash(iconv -f GB18030 -t UTF-8 \"E:/13B/c_cpp_program_learning/Homework/5-b6-1-汉诺塔-每步详细\\(横向\\)-3个变量+3个一维/5-b6-1.c\" -o \"E:/13B/c_cpp_program_learning/Homework/5-b7-汉诺塔-每步详细\\(横向+纵向\\)/5-b6-1_utf8.c\")",
+      "Bash(iconv *)",
+      "Bash(where cl.exe)",
+      "Bash(where MSBuild)",
+      "Bash(where g++)"
+    ]
+  }
+}

@@ -1,0 +1,2 @@
+@echo off
+get_input_data.exe 3-b8.in.dat 3-b8-04 | "E:\13B\c_cpp_program_learning\作业\第5周作业\25262-030105-W0501.第03模块 作业 - PART3 - 循环结构部分\25262-030105-W0501.第03模块 作业 - PART3 - 循环结构部分\3-b8-demo-new.exe" > 3-b8-04.std.out

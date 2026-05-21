@@ -1,0 +1,5 @@
+﻿  3-b10-2-demo.c
+  3-b10-2.c
+  正在生成代码...
+3-b10-2.obj : error LNK2005: main 已经在 3-b10-2-demo.obj 中定义
+E:\13B\c_cpp_program_learning\Homework\x64\Debug\3-b10-2-C方式1-9相加得1953.exe : fatal error LNK1169: 找到一个或多个多重定义的符号

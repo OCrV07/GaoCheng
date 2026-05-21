@@ -1,0 +1,56 @@
+ÇëÊäÈë½áÊø×Ö·û(A~Z)
+=====================
+ÕýÈý½Ç×ÖÄ¸Ëþ(K->A)
+=====================
+          A
+         BAB
+        CBABC
+       DCBABCD
+      EDCBABCDE
+     FEDCBABCDEF
+    GFEDCBABCDEFG
+   HGFEDCBABCDEFGH
+  IHGFEDCBABCDEFGHI
+ JIHGFEDCBABCDEFGHIJ
+KJIHGFEDCBABCDEFGHIJK
+
+=====================
+µ¹Èý½Ç×ÖÄ¸Ëþ(K->A)
+=====================
+KJIHGFEDCBABCDEFGHIJK
+ JIHGFEDCBABCDEFGHIJ
+  IHGFEDCBABCDEFGHI
+   HGFEDCBABCDEFGH
+    GFEDCBABCDEFG
+     FEDCBABCDEF
+      EDCBABCDE
+       DCBABCD
+        CBABC
+         BAB
+          A
+
+=====================
+ÁâÐÎ(K->A)
+=====================
+          A
+         BAB
+        CBABC
+       DCBABCD
+      EDCBABCDE
+     FEDCBABCDEF
+    GFEDCBABCDEFG
+   HGFEDCBABCDEFGH
+  IHGFEDCBABCDEFGHI
+ JIHGFEDCBABCDEFGHIJ
+KJIHGFEDCBABCDEFGHIJK
+ JIHGFEDCBABCDEFGHIJ
+  IHGFEDCBABCDEFGHI
+   HGFEDCBABCDEFGH
+    GFEDCBABCDEFG
+     FEDCBABCDEF
+      EDCBABCDE
+       DCBABCD
+        CBABC
+         BAB
+          A
+

@@ -1,0 +1,218 @@
+                                                    §5.­ PART II
+
+
+1  0
+
+        
+        
+        
+         if/else if/else/switch-case/
+         while/do-while/for/break/continue if+goto
+        
+
+        
+        #include <iostream>
+        #include <iomanip>
+        #include <cstdio> //C <stdio.h>C++
+        #include <cmath> //C <math.h>C++
+        #include <climits> //C <limits.h>C++
+        #include <stdbool.h> // C 
+        #include <limits> // C++
+        #include <cstring> //C <string.h>C++
+        #include <cctype> //C <ctype.h>C++
+
+        cstdio/cmath/iomanip 
+           
+
+        
+        char / unsigned char
+        short / unsigned short
+        int / unsigned int
+        long / unsigned long
+        long long / unsigned long long
+        float
+        double
+        bool
+        void
+
+2 
+3  goto string
+4  cpp  scanf/printf /
+5 "0 errors, 0 warnings"
+6  C  C++
+7  double C++ cout C %lf 
+8 
+
+
+1 
+2 
+3  endl
+4  txt_compare  --trim right  demo 
+
+
+7 4-b125-b6
+
+1 10 5-b6
+
+  2
+
+    5-b6-1 +
+
+    int 
+
+    Sleep ()<Windows. h>
+
+  Sleep(100) 0.1 
+
+    int/bool 
+
+  35-b7 
+
+   5-b7-cct.cpp 
+
+   5-b7.h   5-b7-cct.cpp 
+
+            5-b7-main.cpp 
+
+   5-b7-main.cpp
+
+    5-b7.h  5-b7-cct.cpp 
+
+  Project 
+
+    VS  5-b7 
+
+    5-b7.h  5-b7-cct.cpp 
+
+          
+
+   VS ""/""""-""
+
+           5-b7-cct.cpp  5-b7.h
+
+    5-b7-main.cpp
+
+  4 5-b6
+
+  5 5-b7-demo.exe 
+
+   main  return 0  system("pause");
+
+              demo      demo  1-5   
+
+  1000ms/500ms/200ms/50ms/0ms
+
+    demo
+
+  6 cmd  100  x30 
+
+  
+
+  7 VS 
+
+8" IEEE754" 2 
+
+".exe"
+
+1IEEE754 
+
+            bit    
+
+  float    4 32       1     8    23
+
+  double   8 64       1     11   52
+
+  long double 16 128  1     15   112
+
+   DevC++ 64-bit  long double  16 VS  8 
+
+  2
+  3 2-1 ~ 2-112 
+
+      
+  4 5-b8.cpp 
+
+       txt_compare 
+  5 2-1 ~ 2-112  2-1  0.5
+
+       2-2 ~ 2-112 -20
+                6. 0/1
+                      112  112 
+
+                7 5-b8-demo.exe cmd  140+ 200+
+                8 VSDev-32bitDev-64bit 
+
+9 9*9 
+   1 81 
+                2// 1-9 
+                3
+                      1-9 
+                      cin cin 
+                                         
+                4 sudoku.txt
+                     
+                5 5-b9-demo.exe 
+
+  
+  Line1
+  Line2-x 9*9=81 
+  Line x+1""
+
+                             ""
+
+10 
+    1 1900-2100 
+                  2 1/2/3/4/6/12 
+                      (cct_gotoxy /)
+                       txt_compare 
+                  3 4  6  1/2/3/4/6/12 
+                      
+                  4
+                  5 5-b10-demo.exe /
+                       Sleep(50)
+                  6
+                      
+                  7 12  cmd  380 
+                      
+                      ""
+                                                                                                  
+                                                                                                  
+                                                                                                   4
+                                                                                                  
+                                                                                                  
+                                                                                                  
+                       tab                                                                        
+                                                                                                  
+                                                                                                  2~3 
+                                                                                                  
+
+      
+
+1
+             22020  5  6 2026  2  4 
+
+
+
+5-b7-main.cpp  -(+)-  VS      gcc
+5-b8.cpp                   Y        /
+5-b9.cpp                   Y        Y
+5-b10.cpp                  Y        Y
+                           Y        Y
+
+
+15  13 
+2
+3
+Windowscmd
+
+                                                     12 
+                                                     380
+
+                   cmd ""
+                  1 
+                  2 
+                  3 ""
+                  4 
+
+                      
+

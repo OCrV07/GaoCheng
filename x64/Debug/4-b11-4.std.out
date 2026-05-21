@@ -1,0 +1,28 @@
+ÇëÊäÈë½áÊø×Ö·û(A~Z)
+=======
+ÕýÈý½Ç×ÖÄ¸Ëþ(D->A)
+=======
+   A
+  BAB
+ CBABC
+DCBABCD
+
+=======
+µ¹Èý½Ç×ÖÄ¸Ëþ(D->A)
+=======
+DCBABCD
+ CBABC
+  BAB
+   A
+
+=======
+ÁâÐÎ(D->A)
+=======
+   A
+  BAB
+ CBABC
+DCBABCD
+ CBABC
+  BAB
+   A
+

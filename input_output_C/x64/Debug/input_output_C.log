@@ -1,0 +1,3 @@
+﻿  input_output_C.c
+E:\13B\c_cpp_program_learning\Homework\input_output_C\input_output_C.c(8,11): warning C4477: “scanf”: 格式字符串“%c”需要类型“char *”的参数，但可变参数 1 拥有了类型“float *”
+  input_output_C.vcxproj -> E:\13B\c_cpp_program_learning\Homework\x64\Debug\input_output_C.exe

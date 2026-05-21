@@ -1,0 +1,40 @@
+ÇëÊäÈë½áÊø×Ö·û(A~Z)
+=============
+ÕýÈý½Ç×ÖÄ¸Ëþ(G->A)
+=============
+      A
+     BAB
+    CBABC
+   DCBABCD
+  EDCBABCDE
+ FEDCBABCDEF
+GFEDCBABCDEFG
+
+=============
+µ¹Èý½Ç×ÖÄ¸Ëþ(G->A)
+=============
+GFEDCBABCDEFG
+ FEDCBABCDEF
+  EDCBABCDE
+   DCBABCD
+    CBABC
+     BAB
+      A
+
+=============
+ÁâÐÎ(G->A)
+=============
+      A
+     BAB
+    CBABC
+   DCBABCD
+  EDCBABCDE
+ FEDCBABCDEF
+GFEDCBABCDEFG
+ FEDCBABCDEF
+  EDCBABCDE
+   DCBABCD
+    CBABC
+     BAB
+      A
+

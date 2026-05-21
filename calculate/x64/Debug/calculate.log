@@ -1,0 +1,3 @@
+﻿  calculate.cpp
+E:\13B\c_cpp_program_learning\Homework\calculate\calculate.cpp(8,11): warning C4477: “scanf”: 格式字符串“%c”需要类型“char *”的参数，但可变参数 1 拥有了类型“short *”
+  calculate.vcxproj -> E:\13B\c_cpp_program_learning\Homework\x64\Debug\calculate.exe

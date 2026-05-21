@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xxd \"E:\\\\13B\\\\c_cpp_program_learning\\\\Homework\\\\4-b18-max重载函数\\\\4-b18.cpp\")"
+    ]
+  }
+}
