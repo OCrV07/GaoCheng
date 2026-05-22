@@ -13,6 +13,7 @@
 
    ----------------------------------------------------------------------------------- */
 #include "cmd_console_tools.h"
+#include "cmd_hdc_tools.h"
 #include "hanoi_const_value.h"
 #include <conio.h>
 #include <iomanip>
@@ -159,10 +160,10 @@ void set_show(int *show)
 }
 
 /***************************************************************************
-函数名称：wait_input
+函数名称：wait
 功    能：根据延时设定等待按键或延时
 ***************************************************************************/
-void wait_input()
+void wait()
 {
 	if (s_delay_ms == -1) {
 		while (_getch() != '\r')
@@ -325,35 +326,43 @@ void draw_plate(int col_idx, int level, int plate)
 void do_move(int n, char src, char dst, int mode)
 {
 	g_cnt++;
-
-	// 阶段1：更新内部数组
-	int plate = pop(src);
-	push(dst, plate);
-	if (mode == 3) {
-		cout << "第" << setw(4) << g_cnt << " 步( " << n << "#: " << src << "-->" << dst << ")";
-		cout << "  ";
-		print_info();
-		cout.flush();
-		cout << endl;
+	if (mode == 1) {
+		cout << n << "#: " << src << "-->" << dst << endl;
+	}
+	else if (mode == 2) {
+		cout << "第" << setw(4) << g_cnt << " 步( " << n << "#: " << src << "-->" << dst << ")" << endl;
 	}
 
-	if (mode == 4) {
-		// 刷新日志行
-		cct_gotoxy(MenuItem4_Start_X, MenuItem4_Start_Y);
-		cout << "第" << setw(4) << g_cnt << " 步( " << n << "#: " << src << "-->" << dst << ")";
-		cout << "  ";
-		print_info();
-		cout.flush();
-		// 阶段1 等待
-		wait_input();
+	if (mode == 3 || mode == 4) {
+		// 阶段1：更新内部数组
+		int plate = pop(src);
+		push(dst, plate);
+		if (mode == 3) {
+			cout << "第" << setw(4) << g_cnt << " 步( " << n << "#: " << src << "-->" << dst << ")";
+			cout << "  ";
+			print_info();
+			cout.flush();
+			cout << endl;
+		}
 
-		// 阶段2：更新屏幕对应位置
-		int si = src - 'A', di = dst - 'A';
-		draw_plate(si, get_top(src), 0);		 // 擦除源行旧位置（此时栈顶已更新）
-		draw_plate(di, get_top(dst) - 1, plate); // 在目标行画新盘
+		if (mode == 4) {
+			// 刷新日志行
+			cct_gotoxy(MenuItem4_Start_X, MenuItem4_Start_Y);
+			cout << "第" << setw(4) << g_cnt << " 步( " << n << "#: " << src << "-->" << dst << ")";
+			cout << "  ";
+			print_info();
+			cout.flush();
+			// 阶段1 等待
+			wait();
 
-		// 阶段2 等待
-		wait_input();
+			// 阶段2：更新屏幕对应位置
+			int si = src - 'A', di = dst - 'A';
+			draw_plate(si, get_top(src), 0);		 // 擦除源行旧位置（此时栈顶已更新）
+			draw_plate(di, get_top(dst) - 1, plate); // 在目标行画新盘
+
+			// 阶段2 等待
+			wait();
+		}
 	}
 }
 /***************************************************************************
@@ -374,10 +383,20 @@ void hanoi(int n, char src, char tmp, char dst, int mode)
 
 void mode_1() // 基本解
 {
+	int n;
+	char src, dst;
+	hanoi_info_input(&n, &src, &dst);
+	char tmp = (char)('A' + 'B' + 'C' - src - dst);
+	hanoi(n, src, tmp, dst, 1);
 }
 
 void mode_2() // 基本解(步数记录)
 {
+	int n;
+	char src, dst;
+	hanoi_info_input(&n, &src, &dst);
+	char tmp = (char)('A' + 'B' + 'C' - src - dst);
+	hanoi(n, src, tmp, dst, 2);
 }
 
 void mode_3() // 内部数组显示(横向)
@@ -433,7 +452,7 @@ void mode_4() // 内部数组显示(纵向 + 横向)
 	cout.flush();
 
 	// 第一次按任意键并画出初始圆盘
-	wait_input();
+	wait();
 	int si = src - 'A';
 	if (src == 'A') {
 		for (int i = 0; i < g_topA; i++)
@@ -456,16 +475,106 @@ void mode_4() // 内部数组显示(纵向 + 横向)
 	cct_gotoxy(Status_Line_X, Status_Line_Y + 1);
 }
 
-void mode_5() // 图形解-预备-画三个圆柱
+void mode_5(bool mode5 = true) // 图形解-预备-画三个圆柱
 {
+	if (mode5) {
+		cct_cls();
+		hdc_cls();
+	}
+	const int win_width = 1400, win_high = 900; // 设定屏幕宽度
+	const int win_fgcolor = 0;
+
+	hdc_init(HDC_COLOR[0], win_fgcolor, win_width,
+			 win_high); // 用(背景色，前景色，宽度，高度）初始化窗口
+	s_delay_ms = HDC_Init_Delay;
+	// 画底盘
+	hdc_rectangle(HDC_Start_X, HDC_Start_Y, HDC_Base_Width * 23, HDC_Base_High,
+				  HDC_COLOR[11]); // 画A柱底盘
+	wait();
+	hdc_rectangle(HDC_Start_X + HDC_Underpan_Distance + HDC_Base_Width * 23, HDC_Start_Y, HDC_Base_Width * 23,
+				  HDC_Base_High,
+				  HDC_COLOR[11]); // 画B柱底盘
+	wait();
+	hdc_rectangle(HDC_Start_X + 2 * HDC_Underpan_Distance + HDC_Base_Width * 23 * 2, HDC_Start_Y, HDC_Base_Width * 23,
+				  HDC_Base_High,
+				  HDC_COLOR[11]); // 画C柱底盘
+
+	wait();
+
+	// 画立柱
+	hdc_rectangle(HDC_Start_X + HDC_Base_Width * 11, HDC_Start_Y - HDC_Base_High * 12, HDC_Base_Width,
+				  HDC_Base_High * 12,
+				  HDC_COLOR[11]); // 画A立柱
+	wait();
+	hdc_rectangle(HDC_Start_X + HDC_Base_Width * 11 + HDC_Underpan_Distance + HDC_Base_Width * 23,
+				  HDC_Start_Y - HDC_Base_High * 12, HDC_Base_Width, HDC_Base_High * 12,
+				  HDC_COLOR[11]); // 画B立柱
+	wait();
+	hdc_rectangle(HDC_Start_X + HDC_Base_Width * 11 + 2 * HDC_Underpan_Distance + HDC_Base_Width * 23 * 2,
+				  HDC_Start_Y - HDC_Base_High * 12, HDC_Base_Width, HDC_Base_High * 12,
+				  HDC_COLOR[11]); // 画C立柱
 }
 
 void mode_6() // 图形解-预备-在起始柱上画n个盘子
 {
+	int n;
+	char src, dst;
+	hanoi_info_input(&n, &src, &dst);
+	// 清除 system("pause") 带来的键盘缓冲区残留，避免干扰后续 _getch()
+	while (_kbhit())
+		_getch();
+
+	cct_cls();
+	hdc_cls();
+	cct_gotoxy(Status_Line_X, Status_Line_Y);
+	cout << "从 " << src << " 移动到 " << dst << "，共 " << n << " 层" << endl;
+	mode_5(false);
+
+	wait();
+	// 盘子宽度: 3w-21w, 盘子高度: h
+	// 盘子颜色: HDC_COLOR[1]~HDC_COLOR[10]，底色: HDC_COLOR[0]
+	// 总共 n 个盘
+	// 1号盘的高度: HDC_Start_Y - HDC_Base_High * n
+	for (int i = n; i > 0; i--) {
+		hdc_rectangle(HDC_Start_X + HDC_Base_Width * (11 - i) + (HDC_Underpan_Distance + HDC_Base_Width * 23) * 0,
+					  HDC_Start_Y - HDC_Base_High * (n - i + 1), HDC_Base_Width * (2 * i + 1), HDC_Base_High,
+					  HDC_COLOR[i]);
+		wait();
+	}
+	cout << endl;
 }
 
 void mode_7() // 图形解-预备-第一次移动
 {
+	int n;
+	char src, dst;
+	hanoi_info_input(&n, &src, &dst);
+	// 如果启用延迟，设置速度
+	// 便于后续模式可以直接调用mode_6()画盘
+	int speed;
+	set_delay(&speed);
+	// 清除 system("pause") 带来的键盘缓冲区残留，避免干扰后续 _getch()
+	while (_kbhit())
+		_getch();
+
+	cct_cls();
+	hdc_cls();
+	cct_gotoxy(Status_Line_X, Status_Line_Y);
+	cout << "从 " << src << " 移动到 " << dst << "，共 " << n << " 层" << endl;
+	mode_5(false);
+
+	wait();
+	// 盘子宽度: 3w-21w, 盘子高度: h
+	// 盘子颜色: HDC_COLOR[1]~HDC_COLOR[10]，底色: HDC_COLOR[0]
+	// 总共 n 个盘
+	// 1号盘的高度: HDC_Start_Y - HDC_Base_High * n
+	for (int i = n; i > 0; i--) {
+		hdc_rectangle(HDC_Start_X + HDC_Base_Width * (11 - i) + (HDC_Underpan_Distance + HDC_Base_Width * 23) * 0,
+					  HDC_Start_Y - HDC_Base_High * (n - i + 1), HDC_Base_Width * (2 * i + 1), HDC_Base_High,
+					  HDC_COLOR[i]);
+		wait();
+	}
+	cout << endl;
 }
 
 void mode_8() // 图形解-预备-第二次移动
@@ -480,6 +589,8 @@ void solution_mode_choose(int mode)
 {
 	cout << endl;
 	switch (mode) {
+		case 0:
+			break;
 		case 1:
 			mode_1();
 			break;
@@ -506,8 +617,6 @@ void solution_mode_choose(int mode)
 			break;
 		case 9:
 			mode_9();
-			break;
-		default:
 			break;
 	}
 }

@@ -48,11 +48,15 @@ int main()
 
 	while (1) {
 		clear_state();
+
 		init_menu();
+
 		int mode = get_mode();
+		if (mode == 0)
+			return 0;
 		solution_mode_choose(mode);
 
-		cout << "按回车键继续" << endl;
+		cout << "按回车键继续";
 		while (_getch() != '\r')
 			;
 	}
